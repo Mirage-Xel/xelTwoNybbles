@@ -3041,12 +3041,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8642cd2870f2a944c8f6dd34ec0bf10c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  module: {fileID: 1685549510}
-  sound: {fileID: 1685549507}
-  specialButtons:
+  SpecialButtons:
   - {fileID: 1168573679}
   - {fileID: 1979595831}
-  buttons:
+  Buttons:
   - {fileID: 202942650}
   - {fileID: 1923517799}
   - {fileID: 88507298}
@@ -3098,8 +3096,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Parent: {fileID: 0}
   Children:
-  - {fileID: 0}
   - {fileID: 1168573679}
+  - {fileID: 0}
   - {fileID: 1979595831}
   - {fileID: 0}
   - {fileID: 202942650}
@@ -3167,8 +3165,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 512ae6962c0f49b43b856c0bc8f22a70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TwitchHelpMessage: Use ;!{0} query/submit <numbers>' to query or sumbit those buttons
-    in reading order.
+  TwitchHelpMessage: ' Use ;!{0} query/submit <numbers>'' to query or sumbit those
+    buttons in reading order.'
   TwitchManualCode: 
   TwitchAbandonModule: []
 --- !u!1 &1729786414
